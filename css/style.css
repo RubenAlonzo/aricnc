@@ -1,0 +1,321 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: #e6e6e6;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*
+ * Header styles
+*/
+
+header{
+  background: #FFF;
+  line-height: 0px;
+}
+header .logo{
+  border-right: 1px solid #DCE0E0;
+  height: 60px;
+}
+
+/*
+ * Hero styles
+*/
+
+.hero img{
+  width: 100%;
+}
+
+/*
+ * info styles
+*/
+
+.super-main{
+  background: #FFF;
+}
+
+section.info{
+  text-align: center;
+}
+
+/*
+ * owner detail styles
+*/
+
+.owner-details{
+  padding-top: 20px;
+}
+.owner-details img{
+  width: 90px;
+  border-radius: 50%;
+}
+
+.owner-details h2{
+  font-size: 0.875rem; /*14px */
+  color: #828485;
+  font-weight: 400;
+}
+
+.owner-details .name{
+  font-weight: 600;
+}
+
+/*
+ * pet detail styles
+*/
+
+.pet-details h1{
+  font-size: 1.375rem; /*22px*/
+  color: #666A6C;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.pet-details p{
+  color: #828485;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.pet-details .icon{
+  float: left;
+  width: 33.3%;
+}
+
+/*
+ * booking styles
+*/
+
+.booking{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.booking h2{
+  color: #666A6C;
+  font-weight: 800;
+  font-size: 1.25rem; /*20px*/
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.booking h2 p{
+  font-weight: 600;
+  font-size: 1.125rem; /*18px*/
+  display: inline-block;
+}
+
+/*
+ * container styles
+*/
+
+.container{
+  background: #e6e6e6;
+  border-top: 1px solid #DCE0E0;;
+}
+
+.box{
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.box h3{
+  text-align: center;
+  color: #666A6C;
+  font-weight: 800;
+  font-size: 1.25rem; /*20px*/
+}
+
+.box p{
+  text-align: justify;
+  font-size: 13px;
+  line-height: 22px;
+  color: #565A5C;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box .about .link{
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+/*
+ * care styles
+*/
+
+.black{
+  font-weight: 600;
+}
+
+.about-title{
+  padding: 10px 0 10px 0;
+}
+
+.about-info{
+  line-height: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*
+ * games styles
+*/
+
+.games .about-info div h5{
+  display: inline-block;
+  padding-left: 5px;
+}
+
+/*
+ * pictures styles
+*/
+
+.pictures div img{
+  display: block;
+  width: 80%;
+  margin: 0px auto;
+  padding: 10px 0 10px 0;
+
+}
+@media only screen and (min-width: 1050px){
+
+  header .logo{
+    height: 80px;
+  }
+
+  .column{
+    float: left;
+  }
+
+  .super-main{
+    background: #FFF;
+  }
+
+  main{
+    width: 1040px;
+    margin: 0px auto;
+  }
+
+  .info{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .info .profile{
+    width: 660px;
+  }
+
+  .info .booking{
+    width: 380px;
+  }
+
+  .owner-details{
+    width: 20%;
+  }
+
+  .pet-details{
+    width: 80%;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .icons{
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .icons .icon img{
+    height: 40px ;
+  }
+
+  /*
+ * box styles
+*/
+ .container{
+  width: 1040px;
+  margin: 0px auto;
+}
+
+.box{
+  width: 660px;
+  margin: unset;
+}
+
+.box .about .link{
+  text-align: left;
+}
+/*
+ * care styles
+*/
+
+.about-title{
+  width: 100px;
+}
+.about-info{
+  margin: 0px;
+  width: 220px;
+}
+.care div{
+  float: left;
+  height: 100px;
+}
+
+/*
+ * games styles
+*/
+.games .about-title{
+  float: left;
+}
+
+} 
